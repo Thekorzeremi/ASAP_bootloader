@@ -48,6 +48,6 @@ load_kernel_1:
 load_sectors:
     ret
 message_title db "ASAP : Anvil Startup Advanced Program", 0
-message_menu db 0x0D, 0x0A, "1. Demarrer", 0x0D, 0x0A, "2. Demarrer", 0x0D, 0x0A
+message_menu db 0x0D, 0x0A, "1. Demarrer", 0x0D, 0x0A, "2. Eteindre", 0x0D, 0x0A
 times 510 - ($ - $$) db 0
 dw 0xAA55
